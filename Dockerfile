@@ -12,3 +12,4 @@ RUN wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2
 ENV JAVA_HOME /usr/java/default
 
 RUN yum remove curl;  yum clean all
+ENTRYPOINT ["java"]
