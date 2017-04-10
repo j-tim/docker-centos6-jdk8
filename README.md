@@ -23,3 +23,9 @@ JDK Oracle Java 8:
 ```shell
 docker run -it --rm jtim/centos6-jdk8 -version
 ```
+
+or
+
+```shell
+docker run -it --rm jtim/centos6-jdk8:unlimited -version
+```
