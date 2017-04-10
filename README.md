@@ -10,3 +10,17 @@ version: 6.8
 
 JDK: 8u121
 Buid: b13 
+
+## Tags
+
+JDK Oracle Java 8:
+
+* latest (without Java Cryptography Extension (JCE) Unlimited Strength jars)
+* 8_jdk (same as latest)
+* 8_jdk_unlimited (with Java Cryptography Extension (JCE) Unlimited Strength jars)
+
+## Usage
+
+```shell
+docker run -it --rm jtim/centos6-jdk8 -version
+```
