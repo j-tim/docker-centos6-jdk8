@@ -16,8 +16,7 @@ Buid: b13
 JDK Oracle Java 8:
 
 * latest (without Java Cryptography Extension (JCE) Unlimited Strength jars)
-* 8_jdk (same as latest)
-* 8_jdk_unlimited (with Java Cryptography Extension (JCE) Unlimited Strength jars)
+* unlimited (with Java Cryptography Extension (JCE) Unlimited Strength jars)
 
 ## Usage
 
